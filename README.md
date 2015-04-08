@@ -1,2 +1,4 @@
-# R1magic
-R1magic: Compressive Sampling: Sparse signal recovery utilities
+R1magic
+=======
+
+An R package: Compressive Sampling: Sparse signal recovery utilities

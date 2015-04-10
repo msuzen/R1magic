@@ -1,0 +1,4 @@
+version 0.3
+
+* scale.back.lm function is added, 
+  Transform back multiple regression coefficients to unscaled regression coefficients

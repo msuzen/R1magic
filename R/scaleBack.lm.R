@@ -12,7 +12,7 @@
 #'  X            <- matrix(rnorm(12), 4, 3)
 #'  Y            <- matrix(rnorm(4), 4, 1)
 #'  betas.scaled <- matrix(rnorm(3), 3, 1)
-#'  betas        <- scale.back.lm(X, Y, betas.scaled)
+#'  betas        <- scaleBack.lm(X, Y, betas.scaled)
 scaleBack.lm <- function(X, Y, betas.scaled) {
   numB     <- length(betas.scaled)
   betas    <- rep(0.0, numB)

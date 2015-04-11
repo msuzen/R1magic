@@ -23,6 +23,5 @@ $Rexe CMD build $PACKAGE_NAME
 tar xfz $PACKAGE_NAME$VERSION.tar.gz
 cd $PACKAGE_NAME
 $Rscr -e "library(roxygen2); roxygen2::roxygenise()"
-cp man/* ../../man/
 cd ..
 $Rexe CMD check $PACKAGE_NAME

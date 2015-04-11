@@ -26,7 +26,7 @@ set.seed(4242)
  X            <- matrix(rnorm(12), 4, 3)
  Y            <- matrix(rnorm(4), 4, 1)
  betas.scaled <- matrix(rnorm(3), 3, 1)
- betas        <- scale.back.lm(X, Y, betas.scaled)
+ betas        <- scaleBack.lm(X, Y, betas.scaled)
 }
 \author{
 M.Suzen

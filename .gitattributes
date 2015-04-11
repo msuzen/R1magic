@@ -1,0 +1,5 @@
+.travis.yml export-ignore
+.gitattributes export-ignore
+.Rbuildignore export-ignore
+buildPackage.bash  
+updateMan.bash

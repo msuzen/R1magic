@@ -3,7 +3,7 @@
 # April.2015 GPLv3  
 # Parameters
 PACKAGE_NAME=R1magic
-VERSION=_0.3
+VERSION=_0.3.2
 BUILD_DIR=build_tmp
 Rexe=R
 Rscr=Rscript
@@ -19,10 +19,14 @@ cd build_tmp/$PACKAGE_NAME
 $TAR xfj $PACKAGE_NAME.tar.bz2
 rm -rf $PACKAGE_NAME.tar.bz2
 cd ..
+rm $PACKAGE_NAME/*.bash
 $Rexe CMD build $PACKAGE_NAME
 rm -rf $PACKAGE_NAME
 tar xfz $PACKAGE_NAME$VERSION.tar.gz
 cd $PACKAGE_NAME
+rm -rf man/objectiveL*Rd
+rm -rf man/R1*Rd
 $Rscr -e "library(roxygen2); roxygen2::roxygenise()"
+cp man/objective*Rd ../../../man
 cd ..
 $Rexe CMD check $PACKAGE_NAME

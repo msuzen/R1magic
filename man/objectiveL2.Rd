@@ -11,7 +11,9 @@ objectiveL2(x, T, phi, y, lambda)
 
 \item{T,}{transform bases}
 
-\item{phi,}{measurement vector}
+\item{phi,}{measurement matrix}
+
+\item{y,}{measurement vector}
 
 \item{lambda,}{penalty term}
 }

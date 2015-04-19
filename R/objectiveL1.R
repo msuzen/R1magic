@@ -4,7 +4,8 @@
 #'@author Mehmet Suzen
 #'@param x, unknown vector
 #'@param T, transform bases
-#'@param phi, measurement vector
+#'@param phi, measurement matrix
+#'@param y, measurement vector
 #'@param lambda, penalty term
 #'@note Thank you Jason Xu of Washington University for pointing out complex number handling
 #'

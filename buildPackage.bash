@@ -29,4 +29,4 @@ rm -rf man/R1*Rd
 $Rscr -e "library(roxygen2); roxygen2::roxygenise()"
 cp man/objective*Rd ../../../man
 cd ..
-$Rexe CMD check $PACKAGE_NAME
+$Rexe CMD check $PACKAGE_NAME --as-cran

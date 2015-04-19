@@ -1,4 +1,6 @@
 version 0.3
-
+* Lnorm, L-p norm of a complex vector is added
+* objectiveL1 and objectiveL2 can handle complex vectors, Thank you Jason Xu
+  from Washington University for pointing that out 
 * scaleBack.lm function is added, 
   Transform back multiple regression coefficients to unscaled regression coefficients

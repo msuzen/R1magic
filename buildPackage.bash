@@ -20,6 +20,7 @@ $TAR xfj $PACKAGE_NAME.tar.bz2
 rm -rf $PACKAGE_NAME.tar.bz2
 cd ..
 $Rexe CMD build $PACKAGE_NAME
+rm -rf $PACKAGE_NAME
 tar xfz $PACKAGE_NAME$VERSION.tar.gz
 cd $PACKAGE_NAME
 $Rscr -e "library(roxygen2); roxygen2::roxygenise()"

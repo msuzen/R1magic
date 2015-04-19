@@ -12,6 +12,6 @@ Lnorm <- function(X, p) {
     LX <- sum(LX^p)^(1.0/p)
   }
   if(p == Inf) return(max(LX))
-  if(p == 0) return(lenght(which(LX==0)))
+  if(p == 0) return(length(which(LX==0)))
   return(LX)
 }

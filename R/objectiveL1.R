@@ -6,7 +6,7 @@
 #'@param T, transform bases
 #'@param phi, measurement vector
 #'@param lambda, penalty term
-#'@note Thank you Jason Xu of Washington University for handling complex numbers
+#'@note Thank you Jason Xu of Washington University for pointing out complex number handling
 #'
 objectiveL1 <- function(x,T,phi,y,lambda) {
   # Part of R1Magic by mehmet.suzen@physics.org

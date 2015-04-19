@@ -6,7 +6,7 @@
 #'@param T, transform bases
 #'@param phi, measurement vector
 #'@param lambda, penalty term
-#'@note Thank you Jason Xu of Washington University for complex number handling
+#'@note Thank you Jason Xu of Washington University for pointing out complex number handling
 #'
 objectiveL2 <- function(x,T,phi,y,lambda) {
   X  <- T %*% x

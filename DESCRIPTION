@@ -1,6 +1,6 @@
 Package: R1magic
 Type: Package
-Title: Compressive Sampling: Sparse signal recovery utilities
+Title: Compressive Sampling: Sparse Signal Recovery Utilities
 Version: 0.3.2
 Date: 2015-04-19
 Authors@R: c(

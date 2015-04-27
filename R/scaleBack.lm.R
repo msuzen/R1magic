@@ -1,6 +1,5 @@
 #'
 #' Transform back multiple regression coefficients to unscaled regression coefficients
-#' Original question posed by Mark Seeto on the R mailing list.
 #' 
 #'@author M.Suzen
 #'@note 2015-04-10

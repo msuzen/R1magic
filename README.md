@@ -1,7 +1,6 @@
 R1magic
 =======
 
-[![Build Status](https://travis-ci.org/msuzen/R1magic.svg?branch=master)](https://travis-ci.org/msuzen/R1magic)
 [![CRAN Version](http://www.r-pkg.org/badges/version/R1magic)](https://cran.r-project.org/package=R1magic)
 [![Total RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/grand-total/R1magic?color=brightgreen)](https://cran.r-project.org/package=R1magic)
 [![RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/R1magic?color=brightgreen)](https://cran.r-project.org/package=R1magic)
